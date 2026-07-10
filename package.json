@@ -1,6 +1,7 @@
 {
   "name": "semantic-release-demo",
   "version": "0.0.0-development",
+  "private": true,
   "description": "Demo project sử dụng semantic-release với GitHub Actions",
   "main": "index.js",
   "scripts": {
@@ -17,6 +18,10 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/congltk1234/semantic-release-test.git"
   },
   "license": "MIT"
 }
